@@ -12,6 +12,8 @@ spring:
       idle-timeout: 180000
       auto-commit: true
       max-lifetime: 180000
+  profiles:
+    active: default
 mybatis-plus:
   mapper-locations: classpath*:/mapper/*Mapper.xml
   type-aliases-package: com.amnesia.seckill.pojo
